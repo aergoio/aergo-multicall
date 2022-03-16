@@ -1,4 +1,3 @@
 inject ac 1000000
 deploy ac 0 mc ./multicall.lua
-# query mc aggregate `[["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","getTimestamp"],["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","getBlockheight"]]` `[1647399111,2]`
-query mc aggregate `[["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","isContract","Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c"],["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","getAergoBalance","Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c"]]` `[true,"0"]`
+query mc aggregate `[["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","getBlockheight"],["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","isContract","Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c"],["Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c","getAergoBalance","Amgm8CJTPmTogJ7cij3QQKNgUeNV5UTz2N2nn1D6uBBG6pgzd55c"]]` `[2,true,"0"]`
