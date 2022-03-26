@@ -3,9 +3,14 @@
 -------------------------------------------------------------------
 
 function aggregate(...)
+  local args = {...}
   local results = {}
 
-  for i,call in ipairs({...}) do
+  if type(args[1][1]) == 'table' then
+    args = args[1]
+  end
+
+  for i,call in ipairs(args) do
     results[i] = contract.call(unpack(call))
   end
 

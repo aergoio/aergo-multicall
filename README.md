@@ -19,9 +19,23 @@ Each call is a list in this format: `[contract_address, function_name, arg1, arg
 The calls are passed as arguments to the `aggregate` function:
 
 ```
+results = aggregate(
 [contract_address, function_name, arg1, arg2, ...],
 [contract_address, function_name, arg1, arg2, ...],
 [contract_address, function_name, arg1, arg2, ...]
+)
+```
+
+They can also be passed as an array in the first argument:
+
+```
+var calls = [
+[contract_address, function_name, arg1, arg2, ...],
+[contract_address, function_name, arg1, arg2, ...],
+[contract_address, function_name, arg1, arg2, ...]
+]
+
+results = aggregate(calls)
 ```
 
 
