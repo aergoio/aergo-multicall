@@ -17,7 +17,23 @@ function aggregate(...)
   return results
 end
 
-abi.register_view(aggregate)
+function force_aggregate(...)
+  local args = {...}
+  local results = {}
+
+  if type(args[1][1]) == 'table' then
+    args = args[1]
+  end
+
+  for i,call in ipairs(args) do
+    local success, result = pcall(contract.call, unpack(call))
+    results[i] = {success, result}
+  end
+
+  return results
+end
+
+abi.register_view(aggregate, force_aggregate)
 
 -- Helper Functions - they can also be called via the aggregator above
 

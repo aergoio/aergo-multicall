@@ -38,6 +38,10 @@ var calls = [
 results = aggregate(calls)
 ```
 
+If some of the calls fail, then all the transaction fails. To avoid that you
+can use the `force_aggregate` function instead. It returns, for each call, a
+tuple of `[success, result_or_error]`
+
 
 ## Helper Functions
 
