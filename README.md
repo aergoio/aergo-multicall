@@ -64,6 +64,6 @@ function isContract(address)
 
 | Chain   | Address |
 | ------- | ------- |
-| Mainnet | [AmhAzXNo7o9jK7Wsq6v3DcJcY7vvsD8EYPhuWNHq5RFFYxwJR5kX](https://mainnet.aergoscan.io/account/AmhAzXNo7o9jK7Wsq6v3DcJcY7vvsD8EYPhuWNHq5RFFYxwJR5kX/?tab=interactive) |
-| Testnet | [AmgdCQrHpEo9CTndsMQoH8mQ1famXVFmwin8vyGba7PrRshkT9sL](https://testnet.aergoscan.io/account/AmgdCQrHpEo9CTndsMQoH8mQ1famXVFmwin8vyGba7PrRshkT9sL/?tab=interactive) |
-| Alphanet | [AmgjhaVAtHB9WUWakYfXjqziwPeFts2HqtXbKo7ESe5MLLfALLX6](https://alpha.aergoscan.io/account/AmgjhaVAtHB9WUWakYfXjqziwPeFts2HqtXbKo7ESe5MLLfALLX6/?tab=interactive) |
+| Mainnet | [AmhD86dERD3zdNf7spPSuE1YQaHKL6vDTErmrSZ77WZ6Gjwhixoe](https://mainnet.aergoscan.io/account/AmhD86dERD3zdNf7spPSuE1YQaHKL6vDTErmrSZ77WZ6Gjwhixoe/?tab=interactive) |
+| Testnet | [AmhDxQqkmLaXCRQWmU1moKKZ9hwVNA4Gg4Akra82pWuoaAFcpmnH](https://testnet.aergoscan.io/account/AmhDxQqkmLaXCRQWmU1moKKZ9hwVNA4Gg4Akra82pWuoaAFcpmnH/?tab=interactive) |
+| Alphanet | [Amhrr8FJ8EcAZfbwdX3WBYHrDuYDpgeUswGsAsFzr83rtUjwRdpS](https://alpha.aergoscan.io/account/Amhrr8FJ8EcAZfbwdX3WBYHrDuYDpgeUswGsAsFzr83rtUjwRdpS/?tab=interactive) |
